@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D571CD3281BC19200D2C4CB /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D571CD2281BC19200D2C4CB /* Diary.swift */; };
+		4D571CD5281BC32E00D2C4CB /* addDiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D571CD4281BC32E00D2C4CB /* addDiaryViewController.swift */; };
+		4D571CD7281BC82200D2C4CB /* DiaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D571CD6281BC82200D2C4CB /* DiaryCell.swift */; };
+		4D571CD9281BC92100D2C4CB /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D571CD8281BC92100D2C4CB /* DiaryViewController.swift */; };
 		4D5AAB0A281A64D000BAB939 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5AAB09281A64D000BAB939 /* AppDelegate.swift */; };
 		4D5AAB0C281A64D000BAB939 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5AAB0B281A64D000BAB939 /* SceneDelegate.swift */; };
 		4D5AAB0E281A64D000BAB939 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5AAB0D281A64D000BAB939 /* ViewController.swift */; };
@@ -36,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D571CD2281BC19200D2C4CB /* Diary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
+		4D571CD4281BC32E00D2C4CB /* addDiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addDiaryViewController.swift; sourceTree = "<group>"; };
+		4D571CD6281BC82200D2C4CB /* DiaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryCell.swift; sourceTree = "<group>"; };
+		4D571CD8281BC92100D2C4CB /* DiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryViewController.swift; sourceTree = "<group>"; };
 		4D5AAB06281A64D000BAB939 /* FooDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FooDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D5AAB09281A64D000BAB939 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D5AAB0B281A64D000BAB939 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,9 +110,13 @@
 				4D5AAB09281A64D000BAB939 /* AppDelegate.swift */,
 				4D5AAB0B281A64D000BAB939 /* SceneDelegate.swift */,
 				4D5AAB0D281A64D000BAB939 /* ViewController.swift */,
+				4D571CD2281BC19200D2C4CB /* Diary.swift */,
 				4D5AAB0F281A64D000BAB939 /* Main.storyboard */,
-				4D5AAB12281A64D100BAB939 /* Assets.xcassets */,
+				4D571CD6281BC82200D2C4CB /* DiaryCell.swift */,
+				4D571CD8281BC92100D2C4CB /* DiaryViewController.swift */,
+				4D571CD4281BC32E00D2C4CB /* addDiaryViewController.swift */,
 				4D5AAB14281A64D100BAB939 /* LaunchScreen.storyboard */,
+				4D5AAB12281A64D100BAB939 /* Assets.xcassets */,
 				4D5AAB17281A64D100BAB939 /* Info.plist */,
 			);
 			path = FooDiary;
@@ -259,8 +271,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D5AAB0E281A64D000BAB939 /* ViewController.swift in Sources */,
+				4D571CD5281BC32E00D2C4CB /* addDiaryViewController.swift in Sources */,
 				4D5AAB0A281A64D000BAB939 /* AppDelegate.swift in Sources */,
+				4D571CD9281BC92100D2C4CB /* DiaryViewController.swift in Sources */,
+				4D571CD7281BC82200D2C4CB /* DiaryCell.swift in Sources */,
 				4D5AAB0C281A64D000BAB939 /* SceneDelegate.swift in Sources */,
+				4D571CD3281BC19200D2C4CB /* Diary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
